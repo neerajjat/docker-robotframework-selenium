@@ -13,4 +13,4 @@ You'll still get the reports and screenshots on your laptop.
 
 Usage:\
 export command="python -m robot tests/test1.robot"\
-docker run --rm -v $PWD:/rsfw/  --env command=$command  --env token=$token  nch77884/docker-robotframework-selenium:latest
+docker run --rm -v $PWD:/rsfw/  --env command=$command  nch77884/docker-robotframework-selenium:latest
