@@ -12,11 +12,11 @@ You'll still get the reports and screenshots on your laptop.
 3. Customization is kept to minimum to keep the image size under control thereby resulting in faster conatainer spin up.
 
 Usage:\
-Build locally and run: 
-	1. docker build . -t rsfw:latest
+Build locally and run: \
+	1. docker build . -t rsfw:latest\
 	2. export command="python -m robot tests/test1.robot"\
-	3. docker run --rm -v $PWD:/rsfw/  --env command=$command  rsfw:latest
+	3. docker run --rm -v $PWD:/rsfw/  --env command=$command  rsfw:latest\
 
-Download existing build image and use to spin containers:
+Download existing build image and use to spin containers:\
 	1. export command="python -m robot tests/test1.robot"\
 	2. docker run --rm -v $PWD:/rsfw/  --env command=$command  nch77884/docker-robotframework-selenium:latest
