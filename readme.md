@@ -15,7 +15,7 @@ Usage:\
 Build locally and run: \
 	1. docker build . -t rsfw:latest\
 	2. export command="python -m robot tests/test1.robot"\
-	3. docker run --rm -v $PWD:/rsfw/  --env command=$command  rsfw:latest\
+	3. docker run --rm -v $PWD:/rsfw/  --env command=$command  rsfw:latest
 
 Download existing build image and use to spin containers:\
 	1. export command="python -m robot tests/test1.robot"\
